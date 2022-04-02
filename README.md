@@ -9,7 +9,7 @@ The goal of the project is to transform the real world position of geographic co
 - [Formulating Questions](#formulating-questions)
 - [Datasets](#datasets)
 - [Data Visulization](#data-visulization)
-- [Algorithm](#algorithm)
+- [Algorithm Solution](#algorithm-solution)
 - [Final Performance](#final-performance)
 
 # Formulating Questions
@@ -46,8 +46,8 @@ https://api.bart.gov/docs/stn/stns.aspx
 [(Back to top)](#table-of-contents)
 
 
-# Algorithm 
-#### An algorithm that helps projecting the geolocation onto the diagram
+# Algorithm Solution
+#### An algorithm solution that helps projecting the geolocation onto the diagram
 
 The algorithm constist of two goals: 
 1. Use a straight-forward way to project the real location on the graph.
