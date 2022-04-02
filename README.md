@@ -9,14 +9,10 @@ The goal of the project is to transform the real world position of geographic co
 
 Here is a sample TOC(*wow! such cool!*) that is actually the TOC for this README. -->
 
-- [Scheduling Calls with Predictive Modeling](#scheduling-calls-with-predictive-modeling)
-- [Demo-Preview](#demo-preview)
-- [Problem Statement](#problem-statement)
-- [Formulating Questions](#formulating-questions)
 - [The Bart Data](#The-Bart-Data)
-- [Solution](#solution)
+<!-- - [Solution](#solution)
 - [Machine Learning System Design](#machine-learning-system-design)
-- [Navigating the Repo](#navigating-the-repo)
+- [Navigating the Repo](#navigating-the-repo) -->
 
 # The Bart Data
 This web page provides a list of all of the BART stations with their full names, abbreviations, latitude, longitude and addresses.
@@ -26,6 +22,7 @@ https://api.bart.gov/docs/stn/stns.aspx
 <li><b>station_names_BART.csv:</b> bart station id and its corresponding name </li>
 <li><b>AerialStructuresAndTrainControl.csv:</b> Input data in latitude and longitude </li>
 </ul>
+
 [(Back to top)](#table-of-contents)
 
 ## Visulization
