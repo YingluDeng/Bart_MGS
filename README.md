@@ -10,7 +10,7 @@ The goal of the project is to transform the real world position of geographic co
 - [Datasets](#datasets)
 - [Data Visulization](#data-visulization)
 - [Algorithm](#algorithm)
-- [Performance](#performance)
+- [Final Performance](#final-performance)
 
 # Formulating Questions
 The problem with morphing geolocations onto schematic diagram around one core idea: **How do we project the geolocation to the diagram more accurate?**
@@ -35,9 +35,13 @@ https://api.bart.gov/docs/stn/stns.aspx
 
 # Data Visulization
 * <b>Real Map Visulization (Google Map API)</b>
-  * yellow dot: input data
-  * purple dot: real bart location
+  * yellow dot: input geolocation data
+  * purple dot: bart location
 <img src="https://github.com/YingluDeng/Bart_MGS/blob/main/demo/real_world.png" />
+
+* <b>Schematic Diagram with its corresponding bart station </b>
+  * green dot: bart station
+<img src="https://github.com/YingluDeng/Bart_MGS/blob/main/demo/diagram.png" />
 
 [(Back to top)](#table-of-contents)
 
