@@ -15,7 +15,7 @@ The goal of the project is to transform the real world position of geographic co
 # Formulating Questions
 The problem with morphing geolocations onto schematic diagram around one core idea: **How do we project the geolocation to the diagram more accurate?
 
-**We can then break this down into two further questions: 
+We can then break this down into two further questions: 
 1) How can we convert the geolocation onto the diagram?
 2) Where should we project the point on graph between two stations?
 
