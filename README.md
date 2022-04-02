@@ -66,7 +66,7 @@ The algorithm constist of two goals:
 [(Back to top)](#table-of-contents)
 
 # Performance 
-#### Drawing points on given diagram
+#### Project all the random generated geolocation on the schematic diagram 
 <img src="https://github.com/YingluDeng/Bart_MGS/blob/main/demo/final%20performance.png" />
 
 [(Back to top)](#table-of-contents)
