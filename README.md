@@ -13,7 +13,7 @@ The goal of the project is to transform the real world position of geographic co
 - [Performance](#performance)
 
 # Formulating Questions
-The problem with morphing geolocations onto schematic diagram around one core idea: **How do we project the geolocation to the diagram more accurate?
+The problem with morphing geolocations onto schematic diagram around one core idea: **How do we project the geolocation to the diagram more accurate?**
 
 We can then break this down into two further questions: 
 1) How can we convert the geolocation onto the diagram?
