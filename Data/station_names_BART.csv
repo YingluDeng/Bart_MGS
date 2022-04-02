@@ -1,0 +1,49 @@
+STATION,"STATION_NAME"
+A10,"Lake Merritt"
+A20,Fruitvale
+A30,Coliseum
+A40,"San Leandro"
+A50,"Bay Fair"
+A60,Hayward
+A70,"South Hayward"
+A80,"Union City"
+A90,Fremont
+C10,Rockridge
+C20,Orinda
+C30,Lafayette
+C40,"Walnut Creek"
+C50,"Pleasant Hill"
+C60,Concord
+C70,"North Concord"
+C80,"Pittsburg/Bay Point"
+C88,"Transfer Platform"
+K10,"12th St"
+K20,"19th St"
+K30,MacArthur
+L10,"Castro Valley"
+L20,"West Dublin/Pleasanton"
+L30,"Dublin/Pleasanton"
+M10,"West Oakland"
+M16,Embarcadero
+M20,"Montgomery St"
+M30,"Powell St"
+M40,"Civic Center"
+M50,"16th St"
+M60,"24th St"
+M70,"Glen Park"
+M80,"Balboa Park"
+M90,"Daly City"
+R10,Ashby
+R20,Berkeley
+R30,"North Berkeley"
+R40,"El Cerrito Plaza"
+R50,"El Cerrito Del Norte"
+R60,Richmond
+S20,"Warm Springs"
+S40,Milpitas
+S50,Berryessa
+W10,Colma
+W20,"South San Francisco"
+W30,"San Bruno"
+W40,Millbrae
+Y10,SFO
