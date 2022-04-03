@@ -65,6 +65,7 @@ The algorithm constist of two goals:
 >4. Seperate station IDs into 12 groups and write them in a dictionary.
 >    * Ideas: There are total 12 straight lines, we can seperate in different groups. Once we know the closest station for the given point, then we can target that single line (key) based on its station id (value). The final step is to project the point on the line.
 >5. Set the boundary.
+>    * Example: If given an input geolocation in New York, the system will output "The input location is out of boundary, please try again."
 
 
 [(Back to top)](#table-of-contents)
