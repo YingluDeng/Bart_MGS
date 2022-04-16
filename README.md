@@ -72,6 +72,10 @@ The algorithm constist of two goals:
 
 [(Back to top)](#table-of-contents)
 
+# Bug Explanation
+If the given point is located in the line where the distances between two bart station are very uneven, it may cause the bug like the following example. 
+<img src="https://github.com/YingluDeng/Bart_MGS/blob/main/demo/bug_exp.jpg" />
+
 # Final Performance 
 #### Project all the random generated geolocation on the schematic diagram 
 <img src="https://github.com/YingluDeng/Bart_MGS/blob/main/demo/final%20performance.png" />
