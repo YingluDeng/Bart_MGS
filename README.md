@@ -56,18 +56,19 @@ The algorithm constist of two goals:
 
 > ## Steps:
 >1. Calculating the distance between given point and bart station and find the  first closest and second closest bart id, and its distance.
+>    * use distance formula **d=√((x_2-x_1)²+(y_2-y_1)²)** to find the distance between any two points
 >2. Project the given point onto the diagram by ratio calculation 
 >    * ratio function: 
 >       * ratio dist on real map & ratio dist on the diagram
->       * (distance between the given point to the cloest bart) / (two bart distance on real map) = dis / (two bart distance on the diagram)
+>       * **(distance between the given point to the cloest bart) / (two bart distance on real map) = dis / (two bart distance on the diagram)**
 >    * find a point along a line a certain distance away from another point
 >       * https://math.stackexchange.com/questions/175896/finding-a-point-along-a-line-a-certain-distance-away-from-another-point
 >       
 >          <img src="https://github.com/YingluDeng/Bart_MGS/blob/main/demo/math%20explanation.png" />
 >3. Draw all the projected points on the given diagram.
 >4. Seperate station IDs into 12 groups and write them in a dictionary.
->    * Ideas: There are total 12 straight lines, we store the line-segment group name as key, and stations id on the corresponding line as value. Once we know the closest station for the given point, then we can target the specific line segment (key) based on its closest station id (value). Next, the final step is to project the point on closest line segment.
->5. Set the boundary so that the input data can only be in Bay Area.
+>    * Ideas: There are total 12 straight lines, we store the line-segment group name as key, and stations id on the corresponding line as value. Once we know the closest station for the given point, then we can target the specific **line segment (key)** based on its closest **station id (value)**. Next, the final step is to project the point on closest line segment.
+>5. Set the boundary so that the input data can **only be in Bay Area**.
 >    * Example: If given an input geolocation in New York, the system will output "The input location is out of boundary, please try again."
 
 
