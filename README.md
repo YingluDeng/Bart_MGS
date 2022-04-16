@@ -66,7 +66,7 @@ The algorithm constist of two goals:
 >       
 >          <img src="https://github.com/YingluDeng/Bart_MGS/blob/main/demo/math%20explanation.png" />
 >3. Draw all the projected points on the given diagram.
->4. Seperate station IDs into 12 groups and write them in a dictionary.
+>4. Seperate station IDs into **12 groups** and write them in a dictionary.
 >    * Ideas: There are total 12 straight lines, we store the line-segment group name as key, and stations id on the corresponding line as value. Once we know the closest station for the given point, then we can target the specific **line segment (key)** based on its closest **station id (value)**. Next, the final step is to project the point on closest line segment.
 >5. Set the boundary so that the input data can **only be in Bay Area**.
 >    * Example: If given an input geolocation in New York, the system will output "The input location is out of boundary, please try again."
