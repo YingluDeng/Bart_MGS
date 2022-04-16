@@ -10,6 +10,7 @@ The goal of the project is to transform the real world position of geographic co
 - [Datasets](#datasets)
 - [Data Visulization](#data-visulization)
 - [Algorithm Solution](#algorithm-solution)
+- [Bug Explanation](#bug-explanation)
 - [Final Performance](#final-performance)
 
 # Formulating Questions
@@ -75,6 +76,8 @@ The algorithm constist of two goals:
 # Bug Explanation
 If the given point is located in the line where the distances between two bart station are very uneven, it may cause the bug like the following example. 
 <img src="https://github.com/YingluDeng/Bart_MGS/blob/main/demo/bug_exp.jpg" />
+
+[(Back to top)](#bug-explanation)
 
 # Final Performance 
 #### Project all the random generated geolocation on the schematic diagram 
