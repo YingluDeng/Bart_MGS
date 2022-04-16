@@ -56,7 +56,8 @@ The algorithm constist of two goals:
 > ## Steps:
 >1. Calculating the distance between given point and bart station and find the  first closest and second closest bart id, and its distance.
 >2. Project the given point onto the diagram by ratio calculation 
->    * ratio function: ratio dist on real map & ratio dist on the diagram
+>    * ratio function: 
+>       * ratio dist on real map & ratio dist on the diagram
 >       * (distance between the given point to the cloest bart) / (two bart distance on real map) = dis / (two bart distance on the diagram)
 >    * find a point along a line a certain distance away from another point
 >       * https://math.stackexchange.com/questions/175896/finding-a-point-along-a-line-a-certain-distance-away-from-another-point
