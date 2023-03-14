@@ -1,6 +1,6 @@
 # Bart Morphing Geolocations onto Schematic Diagram (MGS)
 # Introduction
-The goal of the project is to transform the real world position of geographic coordinate system (latitude and longitude) onto the coordinate (x, y) of BART's rail track diagram.
+The primary aim of this project is to develop a system that can accurately transform real-world geographic coordinates (latitude and longitude) into the (x, y) coordinates of BART's rail track schematic diagram. This will enable us to precisely pinpoint the location of BART trains on the map and track their movements in real-time. By achieving this goal, we hope to enhance the efficiency and safety of BART operations, as well as provide more accurate and reliable information to engineers about physical infrastructure and equipment such as stations, signals and locomotives.
 
 <img src="https://github.com/YingluDeng/Bart_MGS/blob/main/demo/trail_system.png" />
 
